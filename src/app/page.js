@@ -6,11 +6,6 @@ import {
   Copy, QrCode, Moon, Sun, Plus, X, File, Image, Video, Archive, 
   Camera, CheckCircle, AlertCircle, Loader2, Wifi, WifiOff 
 } from 'lucide-react';
-import QRCodeStyling from 'qr-code-styling';
-import QrScanner from 'qr-scanner';
-import JSZip from 'jszip';
-import { v4 as uuidv4 } from 'uuid';
-import roomManager from '../lib/RoomManager';
 
 const FileShare = () => {
   // Core state
